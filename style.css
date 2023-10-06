@@ -1,0 +1,362 @@
+@font-face {
+    font-family: domain;
+    src: url(./Domaine.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #1c1c1c;
+    overflow: hidden;
+}
+#page1{
+    height: 110vh;
+    width: 100vw;
+    background-color: #C4BCB3;
+    position: relative;
+    overflow-x: hidden;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222 ;
+
+}
+#nav img{
+    height: 35px;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+}
+#nav i{
+    font-size: 18px;
+}
+#elems{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1{
+    width: 30%;
+    height: 100%;
+}
+#elem2{
+    width: 30%;
+    height: 100%;
+    padding: 20px 60px;
+    text-align: center;
+    border-right: 1px solid #acacac;
+    border-left: 1px solid #acacac ;
+
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: all ease 0.5;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div:hover img{
+    scale: 1.1;
+}
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-family: Canopee;
+}
+#elem1 h4 span{
+    background-color: orangered;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#elem1 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    font-family: Canopee;
+}
+#elem3 h4 span{
+    background-color: orangered;
+    color: #fff;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#elem3 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+#elem2 h2{
+    font-family: domain;
+    font-size: 50px;
+    font-weight: 100;
+}
+#elem2 h3{
+    font-family: domain;
+    font-size: 40px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin: 20px 0;
+}
+#elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+#page1 h1{
+    font-size: 500px;
+    letter-spacing: -35px;
+    font-weight: 100;
+    font-family: Canopee;
+    background-color: #1c1c1c;
+    color: #c4bcb3;
+    line-height: 450px;
+    width: 94%;
+    margin-left: 2%;
+}
+
+#page2{
+    height: 150vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 40px;
+}
+#page2-left{
+    height: 100%;
+    width: 30%;
+    padding-right: 40px;
+    border: 1px solid #222;
+}
+#page2-left h2{
+    font-size: 100px;
+    font-family: Canopee;
+    text-align: center;
+    line-height: 90px;
+}
+#page2-left h2 span{
+    font-size: 150px;
+    font-family: Canopee;
+    line-height: 120px;
+    font-weight: 500;
+}
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 30px;
+    font-family: domain;
+    text-align: center;
+    color: #2f2f2f;
+    margin-top: 10px;
+}
+
+#page2-right{
+    height: 100%;
+    width: 60%;
+    padding: 0 60px;
+}
+#page2-right img{
+    height: 60%;
+    width: 90%;
+    object-fit: cover;
+}
+#page2-right h3{
+    font-family: Canopee;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+#page3{
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #c4bcb3;
+}
+#page3 h1{
+    font-size: 400px;
+    background-color: #1c1c19;
+    font-weight: 100;
+    font-family: Canoppe;
+    letter-spacing: -10px;
+    width: fit-content;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 380px;
+}
+
+#page3 img{
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 3%;
+
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#page4-left{
+    width: 60%;
+    height: 100%;
+    padding: 80px 60px;
+}
+#page4-left img{
+    width: 40%;
+    height: 100%;
+    padding: 80px 60px;
+
+}
+
+#page4-right{
+    width: 40%;
+    height: 100%;
+    padding: 80px 60px;
+}
+#page4-right p{
+    font-size: 30px;
+    font-family: domain;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin-bottom: 50px;
+    line-height: 20px;
+}
+#page4-right #round{
+    height: 250px;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #cac1b6;
+    border: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+#round h1{
+    font-size: 80px;
+    font-family: Canopee;
+    font-weight: 100;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-26%);
+    transition: all ease 0.5s;
+}
+#round img{
+    height: 60px;
+    transform: translateX(-120%);
+    transition: all ease 0.5s;
+
+}
+#round:hover img{
+    transform: translateX(76%);
+}
+#round:hover h1{
+    transform: translateX(100%);
+}
+
+#page5{
+    height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+#page5::-webkit-scrollbar{
+    display: none;
+}
+
+#page5 h1{
+    font-size: 80px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    animation-timing-function: linear;
+    margin-right:20px;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#page5 h1 span{
+    font-family: canopee;
+    background-color: #2f2f2f;
+    color:#c4bcb3 ;
+    padding: 0 12px;
+}
+#page6{
+    height: 100px;
+    width: 100%;
+    background-color: #c4bcb3;
+
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100%-20%));
+    }
+}
+
+#page5:hover{
+    animation-play-state: paused;
+}
